@@ -1,0 +1,14 @@
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\bin\Debug\net8.0\AddressObjReports.exe
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\bin\Debug\net8.0\AddressObjReports.deps.json
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\bin\Debug\net8.0\AddressObjReports.runtimeconfig.json
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\bin\Debug\net8.0\AddressObjReports.dll
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\bin\Debug\net8.0\AddressObjReports.pdb
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.AssemblyInfoInputs.cache
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.AssemblyInfo.cs
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.csproj.CoreCompileInputs.cache
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.dll
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\refint\AddressObjReports.dll
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.pdb
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\AddressObjReports.genruntimeconfig.cache
+C:\Users\siams\source\repos\AddressObjReports\AddressObjReports\obj\Debug\net8.0\ref\AddressObjReports.dll
