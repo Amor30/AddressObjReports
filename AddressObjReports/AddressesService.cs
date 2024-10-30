@@ -1,41 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
-using System.Threading.Tasks;
-using System.Xml;
+﻿using System.Xml;
 
 namespace AddressObjReports
 {
     public class AddressesService
     {
-        // Имена Level которые не надо указывать
+        //Названия Object Level по которым не нужно указывать информацию
         private readonly string[] unusedLevels = 
             {
                 "Земельный участок",
+                "Здание (строение), сооружение",
+                "Помещение",
+                "Помещения в пределах помещения",
+                "Машино-место"
             };
+
         public Dictionary<string, List<Address>> GetGroupAddresses(string directoryName)
         {
             var addresses = new List<Address>();
             var directories = Directory.GetDirectories(directoryName);
             var objectLevels = new Dictionary<int, string>();
 
-            //Названия Object Level по которым не нужно указывать информацию
             GetLevelNames(objectLevels, unusedLevels, directoryName);
+
             foreach (var directory in directories)
             {
                 var file = Directory.GetFiles(directory, "AS_ADDR_OBJ_" + DateTime.Now.Year + "*");
                 AddAddresses(addresses, file[0], objectLevels);
             }
+
             addresses.Sort((b1, b2) => b1.Name.CompareTo(b2.Name));
-            var groupedAddresses = addresses.GroupBy(a => a.LevelName)
+            var groupedAddresses = addresses
+                .GroupBy(a => a.LevelName)
                 .ToDictionary(x => x.Key, y => y.ToList());
+
             return groupedAddresses;
         }
-        private static void GetLevelNames(Dictionary<int, string> objectLevels, string[] unusedLevels, string directoryName)
+
+        private void GetLevelNames(Dictionary<int, string> objectLevels, string[] unusedLevels, string directoryName)
         {
             using var xmlReader = XmlReader.Create(Directory.GetFiles(directoryName, "AS_OBJECT_LEVELS*")[0]);
+
             while (xmlReader.Read())
             {
                 if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "OBJECTLEVEL"))
@@ -50,9 +54,11 @@ namespace AddressObjReports
                 }
             }
         }
-        private static void AddAddresses(List<Address> addresses, string path, Dictionary<int, string> objectLevels)
+
+        private void AddAddresses(List<Address> addresses, string path, Dictionary<int, string> objectLevels)
         {
             using var xmlReader = XmlReader.Create(path);
+
             while (xmlReader.Read())
             {
                 if ((xmlReader.NodeType == XmlNodeType.Element) && (xmlReader.Name == "OBJECT"))

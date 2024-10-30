@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace AddressObjReports
 {
@@ -10,8 +6,8 @@ namespace AddressObjReports
     {
         public async Task CreateReport(Dictionary<string, List<Address>> groupedAddresses)
         {
-            string path = "report.txt";
-            string text = CreateFormatText(groupedAddresses);
+            var path = PathService.SelectPath();
+            var text = CreateFormatText(groupedAddresses);
 
             using (StreamWriter writer = new StreamWriter(path, false))
             {
@@ -19,7 +15,7 @@ namespace AddressObjReports
             }
         }
 
-        private static string CreateFormatText(Dictionary<string, List<Address>> groupedAddresses)
+        private string CreateFormatText(Dictionary<string, List<Address>> groupedAddresses)
         {
             var stringBuilder = new StringBuilder();
             stringBuilder.Append("Отчет по добавленным адресным объектам за " + GetReportDate());
@@ -35,10 +31,11 @@ namespace AddressObjReports
                     stringBuilder.Append($"{test.Name}\n");
                 }
             }
+
             return stringBuilder.ToString();
         }
 
-        private static string GetReportDate()
+        private string GetReportDate()
         {
             using var sr = new StreamReader("gar_delta_xml\\version.txt");
             return sr.ReadLine() ?? throw new InvalidOperationException();

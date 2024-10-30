@@ -1,29 +1,30 @@
-﻿using System;
-using System.Text.Json.Nodes;
-using System.Text.Json.Serialization;
-using System.Xml;
-using System.Net.Http;
-using System.Text.Json;
-using System.Net;
-using System.IO;
-using System.IO.Compression;
-using System.Linq;
-using System.Text;
-
-namespace AddressObjReports
+﻿namespace AddressObjReports
 {
-    internal class Program
+    public class Program
     {
         //возвращает информацию о последней версии файлов, доступных для скачивания(тип DownloadFileInfo)
         static readonly string url = "https://fias.nalog.ru/WebServices/Public/GetLastDownloadFileInfo";
-
         static readonly string zipName = "gar_delta_xml.zip";
         static readonly string directoryName = "gar_delta_xml";
 
-        public static async Task Main(string[] args)
+        static async Task Main(string[] args)
         {
-            var downloadFileService = new DownloadFileService();
-            await downloadFileService.DownloadFileToBaseDirectory(url, zipName, directoryName);
+            try
+            {
+                var downloadFileService = new DownloadFileService();
+                await downloadFileService.DownloadFileToBaseDirectory(url, zipName, directoryName);
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine("Не удалось установить SSL соединение");
+                return;
+            }
+            catch
+            {
+                Console.WriteLine("Непредвиденная ошибка");
+                return;
+            }
+
             try
             {
                 var addressesService = new AddressesService();
@@ -34,6 +35,7 @@ namespace AddressObjReports
             catch
             {
                 Console.WriteLine("Непредвиденная ошибка");
+                return;
             }
             finally
             {

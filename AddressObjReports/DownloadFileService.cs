@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO.Compression;
-using System.Linq;
+﻿using System.IO.Compression;
 using System.Net;
-using System.Text;
 using System.Text.Json;
-using System.Threading.Tasks;
 
 namespace AddressObjReports
 {
@@ -29,6 +24,5 @@ namespace AddressObjReports
             var test = JsonSerializer.Deserialize<DownloadFileInfo>(json) ?? throw new InvalidOperationException();
             return test.GarXMLDeltaURL;
         }
-
     }
 }
