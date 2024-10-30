@@ -2,9 +2,12 @@
 
 namespace AddressObjReports
 {
+    /// <summary>
+    /// Класс, который представляет сервис работы с адресами.
+    /// </summary>
     public class AddressesService
     {
-        //Названия Object Level по которым не нужно указывать информацию
+        //Названия Object Level по которым не нужно указывать информацию.
         private readonly string[] unusedLevels = 
             {
                 "Земельный участок",
@@ -14,6 +17,11 @@ namespace AddressObjReports
                 "Машино-место"
             };
 
+        /// <summary>
+        /// Возвращает сгруппированные адреса в виде словаря с ключом LevelName и значением списка адресов.
+        /// </summary>
+        /// <param name="directoryName">Имя каталога, куда был распакован zip файл.</param>
+        /// <returns></returns>
         public Dictionary<string, List<Address>> GetGroupAddresses(string directoryName)
         {
             var addresses = new List<Address>();

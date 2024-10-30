@@ -4,8 +4,18 @@ using System.Text.Json;
 
 namespace AddressObjReports
 {
+    /// <summary>
+    /// Класс, который представляет сервис по скачиванию файлов.
+    /// </summary>
     public class DownloadFileService
     {
+        /// <summary>
+        /// Скачивает zip файл по ссылке.
+        /// </summary>
+        /// <param name="url">Ссылка на JSON с тегом GarXMLDeltaURL, где хранится zip.</param>
+        /// <param name="zipName">Название zip файла.</param>
+        /// <param name="directoryName">Название каталога, куда распакуется zip.</param>
+        /// <returns></returns>
         public async Task DownloadFileToBaseDirectory(string url, string zipName, string directoryName)
         {
             using (var file = new WebClient())

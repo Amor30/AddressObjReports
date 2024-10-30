@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\pathservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\pathservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\icreatereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\icreatereport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\createreporttotxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\createreporttotxt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\createreporttodocx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\createreporttodocx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\addressesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\addressesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\pathservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\pathservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 260,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\Program.cs",
               "RelativeDocumentMoniker": "AddressObjReports\\Program.cs",
               "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\Program.cs",
               "RelativeToolTip": "AddressObjReports\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCAAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T22:25:27.687Z",
               "IsPinned": true,
@@ -52,67 +44,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICreateReport.cs",
-              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\ICreateReport.cs",
-              "RelativeDocumentMoniker": "AddressObjReports\\ICreateReport.cs",
-              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\ICreateReport.cs",
-              "RelativeToolTip": "AddressObjReports\\ICreateReport.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:48:26.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "CreateReportToDocx.cs",
               "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\CreateReportToDocx.cs",
               "RelativeDocumentMoniker": "AddressObjReports\\CreateReportToDocx.cs",
               "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\CreateReportToDocx.cs",
               "RelativeToolTip": "AddressObjReports\\CreateReportToDocx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:46:05.045Z",
+              "WhenOpened": "2024-10-30T18:40:55.032Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddressesService.cs",
-              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\AddressesService.cs",
-              "RelativeDocumentMoniker": "AddressObjReports\\AddressesService.cs",
-              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\AddressesService.cs",
-              "RelativeToolTip": "AddressObjReports\\AddressesService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:43:49.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Address.cs",
-              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\Address.cs",
-              "RelativeDocumentMoniker": "AddressObjReports\\Address.cs",
-              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\Address.cs",
-              "RelativeToolTip": "AddressObjReports\\Address.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:43:49.258Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PathService.cs",
               "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\PathService.cs",
               "RelativeDocumentMoniker": "AddressObjReports\\PathService.cs",
               "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\PathService.cs",
               "RelativeToolTip": "AddressObjReports\\PathService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:43:06.768Z",
+              "WhenOpened": "2024-10-30T18:40:26.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CreateReportToTxt.cs",
+              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\CreateReportToTxt.cs",
+              "RelativeDocumentMoniker": "AddressObjReports\\CreateReportToTxt.cs",
+              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\CreateReportToTxt.cs",
+              "RelativeToolTip": "AddressObjReports\\CreateReportToTxt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T18:35:57.676Z",
               "EditorCaption": ""
             }
           ]

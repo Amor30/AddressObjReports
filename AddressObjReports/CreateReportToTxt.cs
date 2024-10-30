@@ -2,11 +2,19 @@
 
 namespace AddressObjReports
 {
+    /// <summary>
+    /// Класс, который реализует интерфейс ICreateReport.
+    /// </summary>
     public class CreateReportToTxt : ICreateReport
     {
+        /// <summary>
+        /// Создает отчет в формате txt.
+        /// </summary>
+        /// <param name="groupedAddresses">Словарь с ключом LevelName со значением списка адресов.</param>
+        /// <returns></returns>
         public async Task CreateReport(Dictionary<string, List<Address>> groupedAddresses)
         {
-            var path = PathService.SelectPath();
+            var path = PathService.SelectPath() + ".txt";
             var text = CreateFormatText(groupedAddresses);
 
             using (StreamWriter writer = new StreamWriter(path, false))

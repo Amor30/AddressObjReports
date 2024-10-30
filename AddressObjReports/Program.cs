@@ -2,7 +2,7 @@
 {
     public class Program
     {
-        //возвращает информацию о последней версии файлов, доступных для скачивания(тип DownloadFileInfo)
+        //возвращает информацию о последней версии файлов, доступных для скачивания(тип DownloadFileInfo).
         static readonly string url = "https://fias.nalog.ru/WebServices/Public/GetLastDownloadFileInfo";
         static readonly string zipName = "gar_delta_xml.zip";
         static readonly string directoryName = "gar_delta_xml";
@@ -29,8 +29,10 @@
             {
                 var addressesService = new AddressesService();
                 var groupAddresses = addressesService.GetGroupAddresses(directoryName);
-                //GenerateReport(new CreateReportToTxt(), groupAddresses);
-                GenerateReport(new CreateReportToDocx(), groupAddresses);
+
+                //Вызов метода, который создает текстовый отчет.
+                GenerateReport(new CreateReportToTxt(), groupAddresses);
+                //GenerateReport(new CreateReportToDocx(), groupAddresses);
             }
             catch
             {

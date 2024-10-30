@@ -4,11 +4,19 @@ using System.Drawing;
 
 namespace AddressObjReports
 {
+    /// <summary>
+    /// Класс, который реализует интерфейс ICreateReport.
+    /// </summary>
     public class CreateReportToDocx : ICreateReport
     {
+        /// <summary>
+        /// Создает отчет в формате txt.
+        /// </summary>
+        /// <param name="groupedAddresses">Словарь с ключом LevelName со значением списка адресов.</param>
+        /// <returns></returns>
         public Task CreateReport(Dictionary<string, List<Address>> groupedAddresses)
         {
-            var selectDirectory = PathService.SelectPath();
+            var selectDirectory = PathService.SelectPath() + ".docx";
             var report = DocX.Create(selectDirectory);
             FillingReport(report, groupedAddresses);
             report.Save();
