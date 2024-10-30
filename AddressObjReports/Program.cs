@@ -30,9 +30,10 @@
                 var addressesService = new AddressesService();
                 var groupAddresses = addressesService.GetGroupAddresses(directoryName);
 
-                //Вызов метода, который создает текстовый отчет.
-                GenerateReport(new CreateReportToTxt(), groupAddresses);
-                //GenerateReport(new CreateReportToDocx(), groupAddresses);
+                //Вызов метода, который создает отчет в формате report.txt
+                //GenerateReport(new CreateReportToTxt(), groupAddresses);
+
+                GenerateReport(new CreateReportToDocx(), groupAddresses);
             }
             catch
             {
