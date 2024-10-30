@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\createreporttodocx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\createreporttodocx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\addressesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\addressesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|c:\\users\\siams\\source\\repos\\addressobjreports\\addressobjreports\\downloadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D3C2BB6-D625-4CE2-BAA2-7F4C5EA63667}|AddressObjReports\\AddressObjReports.csproj|solutionrelative:addressobjreports\\downloadfileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 260,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\Program.cs",
               "RelativeDocumentMoniker": "AddressObjReports\\Program.cs",
               "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\Program.cs",
               "RelativeToolTip": "AddressObjReports\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T22:25:27.687Z",
               "IsPinned": true,
@@ -40,28 +36,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddressesService.cs",
-              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\AddressesService.cs",
-              "RelativeDocumentMoniker": "AddressObjReports\\AddressesService.cs",
-              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\AddressesService.cs",
-              "RelativeToolTip": "AddressObjReports\\AddressesService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "CreateReportToDocx.cs",
+              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\CreateReportToDocx.cs",
+              "RelativeDocumentMoniker": "AddressObjReports\\CreateReportToDocx.cs",
+              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\CreateReportToDocx.cs",
+              "RelativeToolTip": "AddressObjReports\\CreateReportToDocx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T21:52:56.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DownloadFileService.cs",
-              "DocumentMoniker": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\DownloadFileService.cs",
-              "RelativeDocumentMoniker": "AddressObjReports\\DownloadFileService.cs",
-              "ToolTip": "C:\\Users\\siams\\source\\repos\\AddressObjReports\\AddressObjReports\\DownloadFileService.cs",
-              "RelativeToolTip": "AddressObjReports\\DownloadFileService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T21:35:18.569Z",
+              "WhenOpened": "2024-10-30T02:11:24.196Z",
               "EditorCaption": ""
             }
           ]

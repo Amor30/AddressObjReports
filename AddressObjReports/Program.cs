@@ -28,7 +28,8 @@ namespace AddressObjReports
             {
                 var addressesService = new AddressesService();
                 var groupAddresses = addressesService.GetGroupAddresses(directoryName);
-                GenerateReport(new CreateReportToTxt(), groupAddresses);
+                //GenerateReport(new CreateReportToTxt(), groupAddresses);
+                GenerateReport(new CreateReportToDocx(), groupAddresses);
             }
             catch
             {
