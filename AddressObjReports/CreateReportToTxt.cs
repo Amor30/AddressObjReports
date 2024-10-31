@@ -14,6 +14,7 @@ namespace AddressObjReports
         /// <returns></returns>
         public async Task CreateReport(Dictionary<string, List<Address>> groupedAddresses)
         {
+            Console.Clear();
             var path = PathService.SelectPath() + ".txt";
             var text = CreateFormatText(groupedAddresses);
 

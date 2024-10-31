@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddressObjReports")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47a43d22e6b6f01cef8d88106d936430aabac7fc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b352e8c2f7f7cb0b1134b8812bd5b488b460f64e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddressObjReports")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddressObjReports")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

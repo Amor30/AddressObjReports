@@ -16,6 +16,7 @@ namespace AddressObjReports
         /// <returns></returns>
         public Task CreateReport(Dictionary<string, List<Address>> groupedAddresses)
         {
+            Console.Clear();
             var selectDirectory = PathService.SelectPath() + ".docx";
             var report = DocX.Create(selectDirectory);
             FillingReport(report, groupedAddresses);

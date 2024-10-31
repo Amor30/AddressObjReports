@@ -18,10 +18,13 @@ namespace AddressObjReports
         /// <returns></returns>
         public async Task DownloadFileToBaseDirectory(string url, string zipName, string directoryName)
         {
+            Console.WriteLine("Загрузка zip файла");
             using (var file = new WebClient())
             {
                 file.DownloadFile(await GetLastDownloadFileInfo(url), zipName);
             }
+            Console.Clear();
+            Console.WriteLine("Распаковка zip файла");
             ZipFile.ExtractToDirectory(zipName,directoryName);
         }
 
